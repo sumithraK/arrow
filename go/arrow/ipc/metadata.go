@@ -191,8 +191,6 @@ func fieldFromFB(field *flatbuf.Field, memo *dictMemo) (arrow.Field, error) {
 		if err != nil {
 			return o, xerrors.Errorf("arrow/ipc: could not convert field type: %w", err)
 		}
-	default:
-		panic("not implemented") // FIXME(sbinet)
 	}
 
 	return o, nil
