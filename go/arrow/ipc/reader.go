@@ -97,9 +97,9 @@ func (r *Reader) readSchema(schema *arrow.Schema) error {
 
 	// TODO(sbinet): in the future, we may want to reconcile IDs in the stream with
 	// those found in the schema.
-	for range r.types {
-		panic("not implemented") // FIXME(sbinet): ReadNextDictionary
-	}
+// 	for range r.types {
+// 		panic("not implemented") // FIXME(sbinet): ReadNextDictionary
+// 	}
 
 	r.schema, err = schemaFromFB(&schemaFB, &r.memo)
 	if err != nil {
