@@ -125,9 +125,9 @@ func NewSchema(fields []Field, metadata *Metadata) *Schema {
 		sc.meta = metadata.clone()
 	}
 	for i, field := range fields {
-		if field.Type == nil {
-			panic("arrow: field with nil DataType")
-		}
+// 		if field.Type == nil {
+// 			panic("arrow: field with nil DataType")
+// 		}
 		sc.fields = append(sc.fields, field)
 		if _, dup := sc.index[field.Name]; dup {
 			panic(fmt.Errorf("arrow: duplicate field with name %q", field.Name))
