@@ -22,8 +22,8 @@ import (
 	"math"
 	"sync/atomic"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/internal/debug"
+	"github.com/sumithraK/arrow/go/arrow"
+	"github.com/sumithraK/arrow/go/arrow/internal/debug"
 )
 
 // Table represents a logical sequence of chunked arrays.

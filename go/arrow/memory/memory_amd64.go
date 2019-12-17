@@ -19,7 +19,7 @@
 package memory
 
 import (
-	"github.com/apache/arrow/go/arrow/internal/cpu"
+	"github.com/sumithraK/arrow/go/arrow/internal/cpu"
 )
 
 func init() {

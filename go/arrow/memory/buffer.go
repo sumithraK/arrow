@@ -19,7 +19,7 @@ package memory
 import (
 	"sync/atomic"
 
-	"github.com/apache/arrow/go/arrow/internal/debug"
+	"github.com/sumithraK/arrow/go/arrow/internal/debug"
 )
 
 type Buffer struct {

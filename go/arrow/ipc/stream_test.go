@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow/internal/arrdata"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/sumithraK/arrow/go/arrow/internal/arrdata"
+	"github.com/sumithraK/arrow/go/arrow/memory"
 )
 
 func TestStream(t *testing.T) {

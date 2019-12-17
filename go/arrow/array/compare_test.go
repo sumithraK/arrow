@@ -21,10 +21,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/float16"
-	"github.com/apache/arrow/go/arrow/internal/arrdata"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/sumithraK/arrow/go/arrow/array"
+	"github.com/sumithraK/arrow/go/arrow/float16"
+	"github.com/sumithraK/arrow/go/arrow/internal/arrdata"
+	"github.com/sumithraK/arrow/go/arrow/memory"
 )
 
 func TestArrayEqual(t *testing.T) {

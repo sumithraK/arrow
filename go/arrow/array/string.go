@@ -22,8 +22,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/sumithraK/arrow/go/arrow"
+	"github.com/sumithraK/arrow/go/arrow/memory"
 )
 
 const (

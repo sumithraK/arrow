@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/memory"
-	"github.com/apache/arrow/go/arrow/tensor"
+	"github.com/sumithraK/arrow/go/arrow"
+	"github.com/sumithraK/arrow/go/arrow/array"
+	"github.com/sumithraK/arrow/go/arrow/memory"
+	"github.com/sumithraK/arrow/go/arrow/tensor"
 )
 
 func TestTensor(t *testing.T) {

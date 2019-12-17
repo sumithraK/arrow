@@ -22,7 +22,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/apache/arrow/go/arrow"
+	"github.com/sumithraK/arrow/go/arrow"
 )
 
 // A type which represents an immutable sequence of variable-length binary strings.

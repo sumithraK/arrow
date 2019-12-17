@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow/internal/testing/tools"
+	"github.com/sumithraK/arrow/go/arrow/internal/testing/tools"
 	"github.com/stretchr/testify/assert"
 )
 

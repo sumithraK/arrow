@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/apache/arrow/go/arrow/decimal128"
+	"github.com/sumithraK/arrow/go/arrow/decimal128"
 )
 
 // Decimal128 traits

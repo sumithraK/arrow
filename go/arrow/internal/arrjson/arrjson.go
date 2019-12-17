@@ -16,7 +16,7 @@
 
 // Package arrjson provides types and functions to encode and decode ARROW types and data
 // to and from JSON files.
-package arrjson // import "github.com/apache/arrow/go/arrow/internal/arrjson"
+package arrjson // import "github.com/sumithraK/arrow/go/arrow/internal/arrjson"
 
 import (
 	"encoding/hex"
@@ -24,10 +24,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/float16"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/sumithraK/arrow/go/arrow"
+	"github.com/sumithraK/arrow/go/arrow/array"
+	"github.com/sumithraK/arrow/go/arrow/float16"
+	"github.com/sumithraK/arrow/go/arrow/memory"
 	"golang.org/x/xerrors"
 )
 
